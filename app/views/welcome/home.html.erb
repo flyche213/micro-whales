@@ -1,0 +1,72 @@
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">﻿
+</header>
+
+<style>
+   p{
+    font-size: 10px;
+  }
+  h1{
+    font-size: 60px;
+    color: blue;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+</style>
+<div class="pageOne text-center" id="p1">
+  <ul class="nav nav-pills">
+    <div>
+      <li> <%= link_to 'Directory', directory_path %></li>
+    </div>
+    <div>
+      <li><%= link_to 'Rates', rates_path %></li>
+    </div>
+    <div>
+      <li><%= link_to 'Partner', partner_path %></li>
+    </div>
+    <div><object align="right">
+       <%= image_tag("MW.jpg", size:"50x50", :alt => "MW") %>
+      </object> 
+    </div>
+  </ul>
+
+  <center>
+  <div class="block text-center">
+  <h1>Micro Whales
+</h1>
+  <h2><i>In-Game-Currency Micro-Transaction Intermediary</i></h2> 
+    
+   <%= image_tag("microwhales1.jpg", :alt => "micro whales") %>
+  
+    <div class="btnList text-center">
+
+    <a class="btn btn-default" href="#"><i class="fa fa-comment-o" aria-hidden="true"></i>
+    FAQ</a>
+      <a class="btn btn-default" href="#"><i class="fa fa-address-book" aria-hidden="true"></i>
+    Contact</a>
+      </div>
+    <br/>
+     <p>	Copyright © Micro Whales. All Rights Reserved</p>
+  </div>
+</div>
+  </center>

@@ -1,0 +1,71 @@
+<header>
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+ <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">﻿
+</header>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+  li {
+    float: left;
+}
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+  .lii{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+</style>
+<div class="pageOne text-center" id="p1">
+<ul class="nav nav-pills">
+    <div>
+      <li> <%= link_to 'Home', home_path %></li>
+    </div>
+    <div>
+      <li><%= link_to 'Rates', rates_path %></li>
+    </div>
+    <div>
+      <li><%= link_to 'Partner', partner_path %></li>
+    </div>
+  </ul> 
+
+<div class="block text-center">
+  <h1>Micro Whales
+</h1>
+  <h2>Gaming Currency</h2> 
+  
+  <center><br/><br/>
+    
+    <h3>
+      Directory
+    </h3>
+    <p>
+      List of Gaming industries
+    </p>
+    <lii><%= link_to 'Electronic Arts', buy_path %></lii>
+  <br/>
+    <lii><%= link_to 'Epic Games', buy_path %></lii>
+   <br/>
+    <lii><%= link_to 'Activism', buy_path %></lii>
+   <br/>
+    <lii><%= link_to 'Valve', buy_path %></lii>
+  </center>
+  
+  
+   
+   
