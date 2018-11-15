@@ -11,4 +11,7 @@ class WelcomeController < ApplicationController
   
   def buy
   end
+  
+  def receipt
+  end
 end

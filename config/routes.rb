@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   get 'rates', to: 'welcome#rates'
   get 'partner', to: 'welcome#partner'
   get 'buy', to: 'welcome#buy'
+  get 'receipt', to: 'welcome#receipt'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
